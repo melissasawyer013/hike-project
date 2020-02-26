@@ -66,7 +66,7 @@ body {
 }
 .features {
     display: flex;
-    background-color: #ffffff;
+    background-color: #333a35;
     width: 97%;
     /* border-right: gray = #333A35 solid 3%; */
 }
