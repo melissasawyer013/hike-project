@@ -1,0 +1,138 @@
+body {
+    background-color: #333a35;
+    font-family: Muli, sans-serif;
+    margin: 0;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    border-right: #333a35 solid 50px;
+    width: 100%;
+}
+.navigation {
+    display: flex;
+    background-color: #333a35;
+    color: #eca419;
+    margin: 10px 5px;  
+    padding: 10px 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.navigation-logo {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 5px;
+    margin: 0 10px;
+}
+.navigation-logo img {
+    height: 50px;
+    width: 50px;
+}
+.navigation-links {
+    margin: 15px 10px;
+    padding: 0 10px;
+    font-weight: boldest;
+}
+.navigation-links a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+.navigation-links a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+.navigation-links a:hover {
+    text-decoration: none;
+    color: #eca419;
+}
+.navigation-links a:active {
+    text-decoration: none;
+    color: #eca419;
+}
+.navigation-icons span {
+    color: #eca419; 
+    margin: 15px 10px;
+    padding: 0 20px;
+    font-size: 1.5em;
+    /* font-weight: lighter; */
+}
+.navigation-icons span:hover {
+    color: #ffffff;
+}
+.navigation-icons span:active {
+    color: #ffffff;
+}
+.features {
+    display: flex;
+    background-color: #ffffff;
+    width: 97%;
+    /* border-right: gray = #333A35 solid 3%; */
+}
+.main-feature {
+    display: flex;
+    width: 60%;
+    height: 500px;
+    background-image: url(../images/desert780x477.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: flex-end;
+}
+.main-feature-text {
+    width: 700px;
+    border-bottom: #eca419 solid 2px;
+    color: #ffffff;
+    margin: 20px 20px 50px 20px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+    padding: 0 70px 20px 70px;
+}
+.sub-features {
+    display: flex;
+    flex-direction: column;
+    width: 40%;    
+    height: 500px;
+}
+.sub-features-top {
+    display: flex;
+    background-image: url(../images/stream420x240.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    align-items: flex-end;
+    height: 50%;
+}
+.sub-features-bottom {
+    display: flex;
+    background-image: url(../images/relax420x237.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    align-items: flex-end;
+    height: 50%;
+}
+.sub-features-text {
+    width: 425px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 0 25px;
+}
+.articles {
+
+}
+.gear {
+
+}
+/* HEX COLORS
+gray = #333A35
+gold = #ECA419
+beige = #DFD6C8
+white = #FFFFFF
+black = #000000 */
