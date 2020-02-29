@@ -176,8 +176,124 @@ body {
     color: #ECA419;
     background-color: #333a35;
 }
-.gear {
+/* Gear starts here */
+.gear-box {
+    background-color: #DFD6C8;
+    width: 97%;
+    margin-top: -25px;
+}
+.gear-box-title h1 {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    color: #ECA419;
+}
+.take-a-seat-section {
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin-bottom: 3px;
+}
+.take-a-seat-section p{
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    margin: 100px 330px;
+    padding: 20px;
+    position: absolute;
+}
+.take-a-seat-section h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+    padding: 40px;
+    position: relative;
+}
+/* the second row of Gear section */
+.clean-your-plate{
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin-bottom: 3px;
+}
+.clean-your-plate h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+    padding: 40px;
+    position: relative;
 
+}
+.clean-your-plate p{
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    margin: -36px 30px;
+    padding: 20px;
+    position: absolute;
+}
+.throwin-shade{
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin-bottom: 3px;
+}
+.throwin-shade h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+    padding: 40px;
+    position: relative;
+    width: 498px;
+}
+.throwin-shade p{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 130px 326px;
+    padding: 20px;
+    position: absolute;
+}
+.last-row {
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin-bottom: 3px;
+}
+.last-row h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 59px;
+    padding: 2px;
+    position: relative;
+    width: 517px;
+}
+.last-row p {
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    margin: 100px 330px;
+    padding: 20px;
+    position: absolute;
+}
+.badge {
+    align-self: center;
+    margin: 90px;
+    padding: 15px;
+    margin-bottom: 30px;
+    position: absolute;
 }
 /* HEX COLORS
 gray = #333A35
