@@ -3,12 +3,6 @@ body {
     font-family: Muli, sans-serif;
     margin: 0;
 }
-.main-container {
-    display: flex;
-    flex-direction: column;
-    border-right: #333a35 solid 50px;
-    width: 100%;
-}
 .navigation {
     display: flex;
     background-color: #333a35;
@@ -33,7 +27,7 @@ body {
 .navigation-links {
     margin: 15px 10px;
     padding: 0 10px;
-    font-weight: boldest;
+    font-weight: bold;
 }
 .navigation-links a:link {
     text-decoration: none;
@@ -56,7 +50,6 @@ body {
     margin: 15px 10px;
     padding: 0 20px;
     font-size: 1.5em;
-    /* font-weight: lighter; */
 }
 .navigation-icons span:hover {
     color: #ffffff;
@@ -64,6 +57,7 @@ body {
 .navigation-icons span:active {
     color: #ffffff;
 }
+/* features section starts here */
 .features {
     display: flex;
     background-color: #333a35;
@@ -88,7 +82,7 @@ body {
     margin: 20px 20px 50px 20px;
     text-align: center;
     font-size: 1.2em;
-    font-weight: bolder;
+    font-weight: bold;
     padding: 0 70px 20px 70px;
 }
 .sub-features {
@@ -139,6 +133,7 @@ body {
     text-decoration: none;
     color: #ECA419;
 }
+/* articles section starts here */
 .articles-container {
     display: flex;
     background-color: #ffffff;
@@ -212,7 +207,6 @@ body {
     padding: 40px;
     position: relative;
 }
-/* the second row of Gear section */
 .clean-your-plate{
     background-color:#FFFFFF;
     display: flex;
@@ -295,9 +289,3 @@ body {
     margin-bottom: 30px;
     position: absolute;
 }
-/* HEX COLORS
-gray = #333A35
-gold = #ECA419
-beige = #DFD6C8
-white = #FFFFFF
-black = #000000 */
