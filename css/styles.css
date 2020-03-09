@@ -182,11 +182,12 @@ body {
     flex-wrap: wrap;
     padding-bottom: 100px;
 }
-.gear-container h1 {
-    color: #ECA419;
+.gear-head{
     display: flex;
-    justify-content: center;
-    margin: 100px 0 0 0;
+    justify-content:center ;
+    color: #ECA419;
+    margin:100px 0 0 0;
+    margin-bottom: -12px;
     font-size: 3.5em;
 }
 .gear-articles {
@@ -194,10 +195,10 @@ body {
     flex-direction: row;
     background-color: #ffffff;
     padding: 40px 40px;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin: 0 150px 5px 150px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .gear-container img {
     display: flex;
@@ -221,7 +222,7 @@ body {
 }
 .gear-container-text {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 0 40px 0 60px;
     justify-content: center;
     width: 500px;
